@@ -4,28 +4,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <script src="script.js"></script>
-    <h1> Mortgage Caluculator </h1>
-      <h2> This a simple mortgage calculator that provides you with your monthly mortgage payment. Simply enter your mortgage amount and select the interst rate that you prefer. The calculation is based on a 25 year amortization perdiod.  </h2>
+    <h1 class="display-1"> Mortgage Calculator </h1>
+      <h2 class="display-6"> This a simple mortgage calculator that provides you with your monthly mortgage payment. Simply enter your mortgage amount and select the interst rate that you prefer. The calculation is based on a 25 year amortization period.  </h2>
 
   <h3> PAYMENT SCHEDULE </h3>
 <br>
-<!-- <p> <b> Mortgage Amount: </b> <input type="text" id="inAmount"/> </p>
-<p> <b> Interest Rate: </b> <input type="text" id="inIntrate"/> </p>
-<p> <b> Monthly Payment: </b> <input type="text" id="inPymt"/> </p> -->
+
 
 <p> <b> Mortgage Amount: </b> <input type="number" id="Amount"/> </p>
 <br>
 <p> <b> Interest Rate: </b> <input type="number" id="interestrate"/> </p>
 <br>
-<!-- <p> <b> Monthly Payment: </b> <input type="text" id="inPymt"/> </p> -->
+
 <br>
 <p> <button onclick="myFunction()" id="btnCalculate"> Calculate Payments </button></p>
 <br>
-<button onclick="myFunction()">Click me</button>
+
 <p id="monthlymortgagepayment"> </p>
 
 </body>
