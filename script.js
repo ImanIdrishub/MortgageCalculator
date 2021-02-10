@@ -2,7 +2,7 @@ function myFunction() {
     const mortgageAmount = document.getElementById("Amount").value
     const interestRate = document.getElementById("interestrate").value
     const payment = monthlyPayment(Number(mortgageAmount), Number(interestRate))
-    document.getElementById("monthlymortgagepayment").innerText = `Total Monthly Payment: ${payment}`
+    document.getElementById("monthlymortgagepayment").innerText = `Monthly Mortgage Payment: ${payment}`
   }
 
 

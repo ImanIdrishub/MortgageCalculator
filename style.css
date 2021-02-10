@@ -8,21 +8,34 @@
   
   h2 {
     color: black;
-    text-align: center;
+    text-align: left; 
   }
 
   h3 {
     color: #008080;
-    text-align: center;
+    text-align: left;
   }
  
   p {
 
     text-align: center;
-    border: 2px solid #BC8F8F;
+    border: 2px solid #008080;
     color: black;
     border-radius: 10px;
     padding: 3px 10px;
     display: inline-block;
     cursor: pointer;
   }  
+
+  button {
+    background-color: #008080;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
